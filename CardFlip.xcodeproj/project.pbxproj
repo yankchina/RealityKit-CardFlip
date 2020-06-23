@@ -36,8 +36,8 @@
 
 /* Begin PBXFileReference section */
 		F31E88DE22DFA6CE00E4B6A7 /* CardFlipARView+Coaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardFlipARView+Coaching.swift"; sourceTree = "<group>"; };
-		F38DF9BC22EDFFD500DC328A /* HasTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HasTap.swift; path = ../../../../../../../../System/Volumes/Data/Users/maxcobb/Documents/Code/Personal/CardFlip/CardFlip/ARClasses/HasTap.swift; sourceTree = "<group>"; };
-		F38DF9BE22EE020400DC328A /* ARButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ARButton.swift; path = ../../../../../../../../System/Volumes/Data/Users/maxcobb/Documents/Code/Personal/CardFlip/CardFlip/ARClasses/ARButton.swift; sourceTree = "<group>"; };
+		F38DF9BC22EDFFD500DC328A /* HasTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasTap.swift; sourceTree = "<group>"; };
+		F38DF9BE22EE020400DC328A /* ARButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARButton.swift; sourceTree = "<group>"; };
 		F390D50C22DE886A00D21945 /* CardFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F390D50F22DE886A00D21945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F390D51322DE886A00D21945 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		F3CFE76B22DEA4000071C3AD /* CardFlipARView+Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardFlipARView+Gestures.swift"; sourceTree = "<group>"; };
 		F3CFE76F22DFA34E0071C3AD /* CardFlipARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipARView.swift; sourceTree = "<group>"; };
 		F3DEC08D22F2E12A003EBC87 /* CardFlipARView+GameStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardFlipARView+GameStatus.swift"; sourceTree = "<group>"; };
-		F3F5A14222E996D200F529DB /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardComponent.swift; path = ../../../../../../../../System/Volumes/Data/Users/maxcobb/Documents/Code/Personal/CardFlip/CardFlip/ARClasses/CardComponent.swift; sourceTree = "<group>"; };
+		F3F5A14222E996D200F529DB /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -420,10 +420,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maxxfrazer.CardFlip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yankchina.CardFlip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -441,10 +441,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maxxfrazer.CardFlip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yankchina.CardFlip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

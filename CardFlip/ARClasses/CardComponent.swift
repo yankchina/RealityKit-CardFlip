@@ -29,7 +29,7 @@ extension HasCard where Self: Entity {
   }
   var isRevealed: Bool {
     get { self.card.isRevealed }
-    set { self.card.isRevealed = newValue }
+    mutating set { self.card.isRevealed = newValue }
   }
 }
 
