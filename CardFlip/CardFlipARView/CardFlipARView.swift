@@ -6,9 +6,9 @@
 //  Copyright © 2019 Max Cobb. All rights reserved.
 //
 
-import RealityKit
 import ARKit
 import Combine
+import RealityKit
 
 struct GameData {
   var dimensions: SIMD2<Int> = [4,4]
@@ -20,6 +20,7 @@ struct GameData {
 
 class CardFlipARView: ARView, ARSessionDelegate {
   let coachingOverlay = ARCoachingOverlayView()
+    
   var tableAdded = false
 
   var status: GameStatus = .initCoaching {
@@ -46,7 +47,7 @@ class CardFlipARView: ARView, ARSessionDelegate {
   var flipTable: FlipTable? = nil
   var confirmButton: ARButton?
   var installedGestures: [EntityGestureRecognizer] = []
-
+let session:ARSession = ARSession()
   var waitForAnchor: Cancellable?
 
   var gameData = GameData()
